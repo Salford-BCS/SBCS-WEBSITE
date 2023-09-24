@@ -4,7 +4,9 @@
 :root {
   --font: "Rubik";
 }
-
+/* * {
+  border: 1px solid red;
+} */
 body {
   margin: 0;
   padding: 0;
@@ -20,10 +22,10 @@ li {
   list-style-type: none;
 }
 
-h1 {
+/* h1 {
   font-weight: 800;
   font-size: 30px;
-}
+} */
 
 /* Navigation bar INCOMPLETE*/
 
@@ -34,8 +36,8 @@ h1 {
 .logo {
   width: 200px;
 }
-.nav-bar a,
-.header h1 {
+.nav-bar a
+/* ,.header h1  */ {
   font-family: Rubik;
   color: black;
   font-size: 20px;
@@ -69,16 +71,15 @@ h1 {
   padding: 30px;
   text-decoration: none;
 }
-
-.header h1 {
+/* h1 {
   font-size: 40px;
   font-weight: 500;
-}
+} */
 
 /* Hero section */
 
 .header {
-  margin: 60px 0px;
+  /* margin: 60px 0px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -89,7 +90,7 @@ h1 {
 }
 
 .paragraph-text {
-  width: 600px;
+  /* width: 600px; */
   border-radius: 5px;
   background: #fff;
   padding: 10px;
@@ -104,7 +105,6 @@ h1 {
   padding: 10px 30px;
   margin-top: 40px;
   border-radius: 20px;
-  display: flex;
 }
 
 .forward-icon {
@@ -536,9 +536,9 @@ textarea {
   width: 30%;
 }
 
-.logo img {
+/* .logo img {
   width: 250px;
-}
+} */
 
 .footer-distributed h3 span {
   color: lightseagreen;
