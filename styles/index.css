@@ -4,14 +4,10 @@
 :root {
   --font: "Rubik";
 }
-/* * {
-  border: 1px solid red;
-} */
+
 body {
   margin: 0;
   padding: 0;
-  text-align: center;
-
   /* fonts */
   font-family: var(--font), sans-serif;
 }
@@ -22,10 +18,14 @@ li {
   list-style-type: none;
 }
 
-/* h1 {
+h1 {
   font-weight: 800;
   font-size: 30px;
-} */
+}
+
+* {
+  border: 1px solid red;
+}
 
 /* Navigation bar INCOMPLETE*/
 
@@ -682,6 +682,11 @@ textarea {
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
+  .container {
+    display: grid;
+    margin: 4px;
+    align-items: center;
+  }
   .footer-distributed {
     font: bold 14px sans-serif;
   }
