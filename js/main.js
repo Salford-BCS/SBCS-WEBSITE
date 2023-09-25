@@ -1,10 +1,10 @@
 $(document).ready(function () {
-  $("hamburger-menu").click(function () {
-    alert("You clicked the button!");
+  $(".hamburger-menu").click(function () {
+    $(".mobile-menu").toggle();
   });
 });
 
 $(".logo").click(function (e) {
   e.preventDefault();
-  alert("new");
+  console.log("new");
 });
