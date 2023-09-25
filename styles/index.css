@@ -114,7 +114,7 @@ h1 {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.container {
+.containers {
   display: flex;
   justify-content: center;
   margin: 80px;
@@ -139,8 +139,9 @@ h1 {
 }
 
 .team-content {
-  width: 200px;
-  margin: 0px 30px 0px 30px;
+  width: 100%;
+  /* margin: 0px 30px 0px 30px; */
+  margin: 2px;
 }
 
 .content {
@@ -148,8 +149,7 @@ h1 {
 }
 
 .content,
-.event-content
-,
+.event-content,
 .team-content {
   padding: 30px;
   border-radius: 10px;
@@ -683,9 +683,9 @@ textarea {
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
-  .container {
+  .containers {
     display: grid;
-    margin: 4px;
+
     align-items: center;
   }
   .footer-distributed {
