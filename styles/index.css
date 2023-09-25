@@ -148,7 +148,8 @@ h1 {
 }
 
 .content,
-.event-content,
+.event-content
+,
 .team-content {
   padding: 30px;
   border-radius: 10px;
